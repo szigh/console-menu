@@ -39,7 +39,7 @@
             Console.WriteLine();
             foreach(var action in _actions)
             {
-                Console.Write($"({(_caseSensitive ? action.Key : action.Key.ToUpper())}}) {action.Value.Name};");
+                Console.Write($"({(_caseSensitive ? action.Key : action.Key.ToUpper())}) {action.Value.Name};");
             }
             Console.WriteLine($"{_exitKey} Exit");
 
